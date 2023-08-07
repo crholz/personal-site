@@ -1,0 +1,17 @@
+.our-story {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+.our-story-head {
+  color: #000;
+  text-decoration: underline 3px;
+  font-family: 'Cookie', serif;
+}
+
+.our-story-p {
+  color: #000;
+}

@@ -1,7 +1,12 @@
 import Link from 'next/link';
 import './Navbar.css'
 
+import CountdownTimer from './CountdownTimer/CountdownTimer';
+
 function Navbar() {
+
+  const WEDDING_DATE = new Date("7 september 2024");
+  const NOW_IN_MS = new Date().getTime();
 
   return (
     <>
@@ -11,7 +16,7 @@ function Navbar() {
             <Link href="/" className='navbar-text'>C+M</Link>
             <ul className='navbar-menu'>
                 <li className='navbar-item'>
-                    <Link href="/#story" className='navbar-item-text'>Our Story</Link>
+                    <Link href="/#our-story" className='navbar-item-text'>Our Story</Link>
                 </li>
                 <li className='navbar-item'>
                     <Link href="/#location" className='navbar-item-text'>Location</Link>
@@ -28,6 +33,15 @@ function Navbar() {
             </ul>
          </div>
        </nav>
+       <div className='content-box'>
+         <CountdownTimer targetDate={WEDDING_DATE} />
+         <h1 className='header-text'>
+            Placeholder Text
+         </h1>
+         <p className='para-text'>
+            Placeholder Text 2
+         </p>
+       </div>
      </div>
     </>
   )
