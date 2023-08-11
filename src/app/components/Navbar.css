@@ -115,7 +115,8 @@
       white-space: nowrap;
       margin-right: 75%;
       display: flex;
-      margin-left: 2vw;
+      font-family: 'Cookie', serif;
+      letter-spacing: 4px;
     }
 
     .bg-image {
