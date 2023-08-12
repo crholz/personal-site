@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Corbin And Mykenzie\'s Wedding',
-  description: 'Page for the 2023 Wedding of Corbin Holz and Mykenzie Brown',
+  description: 'Page for the 2024 Wedding of Corbin Holz and Mykenzie Brown',
 }
 
 export default function RootLayout({ children }) {
