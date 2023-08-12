@@ -17,6 +17,14 @@
     object-fit: contain;
   }
 
+  .header-text {
+    color: #fff;
+  }
+
+  .para-text {
+    color: #fff;
+  }
+
   @media screen  and (max-width: 870px) {
     .header-img {
         background: url('./home_image.jpg') center center/cover no-repeat;
