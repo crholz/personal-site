@@ -1,10 +1,10 @@
-'use client';
+"use client";
 
-import React, {useState} from 'react';
-import Link from 'next/link';
-import './Navbar.css'
+import React, { useState } from "react";
+import Link from "next/link";
+import "./Navbar.css";
 
-import CountdownTimer from './CountdownTimer/CountdownTimer';
+import CountdownTimer from "./CountdownTimer/CountdownTimer";
 
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
@@ -14,7 +14,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTimes, faBars } from "@fortawesome/free-solid-svg-icons";
 
 function Navbar() {
-
   const [click, setClick] = useState(false);
 
   const handleClick = () => setClick(!click);
@@ -25,44 +24,68 @@ function Navbar() {
 
   return (
     <>
-      <div className={click? 'bg-image active': 'bg-image'}>
-        <nav className='navbar'>
-          <div className={click ? 'navbar-container active':'navbar-container'}>
-            <Link href="/" className='navbar-text'>C+M</Link>
-            <div className='menu-icon' onClick={handleClick}>
-              <FontAwesomeIcon icon={click ? faTimes : faBars} className={click ? 'fa-times' : 'fa-bars'}/>
-            </div>
-            <ul className={click ? 'navbar-menu active':'navbar-menu'}>
-                <li className='navbar-item'>
-                    <Link href="/#our-story" className='navbar-item-text' onClick={closeMobileMenu}>Our Story</Link>
-                </li>
-                <li className='navbar-item'>
-                    <Link href="/#location" className='navbar-item-text' onClick={closeMobileMenu}>Location</Link>
-                </li>
-                <li className='navbar-item'>
-                    <Link href="/#accomodation" className='navbar-item-text' onClick={closeMobileMenu}>Accomodation</Link>
-                </li>
-                <li className='navbar-item'>
-                    <Link href="/#faq" className='navbar-item-text' onClick={closeMobileMenu}>FAQ</Link>
-                </li>
-                <li className='navbar-item'>
-                    <Link href="/#registry" className='navbar-item-text' onClick={closeMobileMenu}>Registry</Link>
-                </li>
-            </ul>
-         </div>
-       </nav>
-       <div className='content-box'>
-         <CountdownTimer targetDate={WEDDING_DATE} />
-         <h1 className='header-text'>
-            Placeholder Text
-         </h1>
-         <p className='para-text'>
-            Placeholder Text 2
-         </p>
-       </div>
-     </div>
+      <nav className="navbar">
+        <div className={click ? "navbar-container active" : "navbar-container"}>
+          <Link href="/" className="navbar-text">
+            C+M
+          </Link>
+          <div className="menu-icon" onClick={handleClick}>
+            <FontAwesomeIcon
+              icon={click ? faTimes : faBars}
+              className={click ? "fa-times" : "fa-bars"}
+            />
+          </div>
+          <ul className={click ? "navbar-menu active" : "navbar-menu"}>
+            <li className="navbar-item">
+              <Link
+                href="/#our-story"
+                className="navbar-item-text"
+                onClick={closeMobileMenu}
+              >
+                Our Story
+              </Link>
+            </li>
+            <li className="navbar-item">
+              <Link
+                href="/#location"
+                className="navbar-item-text"
+                onClick={closeMobileMenu}
+              >
+                Location
+              </Link>
+            </li>
+            <li className="navbar-item">
+              <Link
+                href="/#accomodation"
+                className="navbar-item-text"
+                onClick={closeMobileMenu}
+              >
+                Accomodation
+              </Link>
+            </li>
+            <li className="navbar-item">
+              <Link
+                href="/#faq"
+                className="navbar-item-text"
+                onClick={closeMobileMenu}
+              >
+                FAQ
+              </Link>
+            </li>
+            <li className="navbar-item">
+              <Link
+                href="/#registry"
+                className="navbar-item-text"
+                onClick={closeMobileMenu}
+              >
+                Registry
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;

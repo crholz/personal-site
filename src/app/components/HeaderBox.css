@@ -1,0 +1,38 @@
+.header-img {
+    background: url('./home_image.jpg') center center/cover no-repeat;
+    width: 100%;
+    height: 100vh;
+    box-shadow: inset 0 0 0 1000px rgba(29, 28, 28, 0.384);
+    background-color: white;
+    object-fit: contain;
+  }
+
+  .content-box {
+    margin-top: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+  }
+
+  @media screen  and (max-width: 870px) {
+    .header-img {
+        background: url('./home_image.jpg') center center/cover no-repeat;
+        width: 100%;
+        height: 100vh;
+        box-shadow: inset 0 0 0 1000px rgba(29, 28, 28, 0.384);
+        background-position: 65% 100%;
+      }
+
+      .content-box {
+        margin-top: 50vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        object-fit: contain;
+      }
+  }
