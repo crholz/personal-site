@@ -27,7 +27,7 @@ function Navbar() {
       <nav className="navbar">
         <div className={click ? "navbar-container active" : "navbar-container"}>
           <Link href="/" className="navbar-text">
-            C+M
+            C&M
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <FontAwesomeIcon
@@ -47,20 +47,29 @@ function Navbar() {
             </li>
             <li className="navbar-item">
               <Link
-                href="/#location"
+                href="/#details"
                 className="navbar-item-text"
                 onClick={closeMobileMenu}
               >
-                Location
+                Details
               </Link>
             </li>
             <li className="navbar-item">
               <Link
-                href="/#accomodation"
+                href="/#wedding-party"
                 className="navbar-item-text"
                 onClick={closeMobileMenu}
               >
-                Accomodation
+                Wedding Party
+              </Link>
+            </li>
+            <li className="navbar-item">
+              <Link
+                href="/#accomodations"
+                className="navbar-item-text"
+                onClick={closeMobileMenu}
+              >
+                Accomodations
               </Link>
             </li>
             <li className="navbar-item">
@@ -79,6 +88,15 @@ function Navbar() {
                 onClick={closeMobileMenu}
               >
                 Registry
+              </Link>
+            </li>
+            <li className="navbar-item">
+              <Link
+                href="/#rsvp"
+                className="navbar-item-text"
+                onClick={closeMobileMenu}
+              >
+                RSVP
               </Link>
             </li>
           </ul>

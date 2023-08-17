@@ -10,10 +10,10 @@ function HeaderBox() {
     <>
       <div className="header-img">
         <div className="content-box">
+          <h1 className="header-text">Corbin and Mykenzie</h1>
           <h1 className="header-text">09/07/2024</h1>
           <CountdownTimer targetDate={WEDDING_DATE} />
-          <h1 className="header-text">Placeholder Text</h1>
-          <p className="para-text">Placeholder Text 2</p>
+          <p className="para-text">Check back later to rsvp here.</p>
         </div>
       </div>
     </>

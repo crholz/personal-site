@@ -9,7 +9,7 @@ export default function Home() {
     <main className={styles.main}>
       <Navbar />
       <HeaderBox />
-      <ContentPage />
+      <ContentPage className/>
     </main>
   )
 }

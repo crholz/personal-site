@@ -1,15 +1,215 @@
+.text-item {
+  align-items: center;
+}
+
 .our-story {
   width: 100%;
   align-items: center;
-  background-color: white;
 }
 
 .our-story-head {
   color: #000;
   text-decoration: underline 3px;
+  padding-top: 2vh;
+  text-align: center;
   font-family: 'Cookie', serif;
+  font-size: 56px;
 }
 
 .our-story-p {
   color: #000;
+  padding-top: 2vh;
+  padding-bottom: 3vh;
+  padding-left: 25%;
+  padding-right: 25%;
+  font-size: 24px;
+}
+
+.our-story-sign {
+  color: #000;
+  padding-left: 25%;
+  padding-right: 25%;
+  font-size: 24px;
+}
+
+.our-story-signature {
+  color: #000;
+  padding-left: 25%;
+  padding-right: 25%;
+  font-size: 24px;
+}
+
+.details-head {
+  padding-top: 2vh;
+  text-align: center;
+  color: #000;
+  font-family: 'Cookie', serif;
+  font-size: 56px;
+}
+
+.location-text {
+  text-align: center;
+  color: #000;
+}
+
+.location-name {
+  text-align: center;
+  color: #000;
+}
+
+.location-addr {
+  text-align: center;
+  color: #000;
+}
+.location-city {
+  text-align: center;
+  color: #000;
+}
+
+.details-p {
+  padding-top: 3vh;
+  padding-bottom: 2vh;
+  padding-left: 25%;
+  padding-right: 25%;
+  color: #000;
+}
+
+.google-map {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.google-map-item {
+  border: 3px #c9e2c5;
+}
+
+.wedding-party-head {
+  text-align: center;
+  padding-top: 5vh;
+  color: #000;
+  font-family: 'Cookie', serif;
+  font-size: 56px;
+}
+
+.wedding-party-list {
+  display: grid;
+  grid-template-columns: repeat(2, 25vh);
+  grid-gap: 30px;
+  list-style: none;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3vh;
+  padding-bottom: 2vh;
+  color: #000;
+  font-family: 'Cookie', serif;
+  font-size: 32px
+}
+
+.bonusparty {
+  padding-top: 5vh;
+  text-align: center;
+  color: #000;
+  font-family: 'Cookie', serif;
+  font-size: 32px;
+}
+
+.accomodations {
+  padding-top: 5vh;
+}
+
+.accomodations-head {
+  text-align: center;
+  color: #000;
+  font-family: 'Cookie', serif;
+  font-size: 56px;
+}
+
+.accomodations-p {
+  text-align: center;
+  color: #000;
+}
+
+.faq {
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 3vh;
+  padding-bottom: 2vh;
+  color: #000;
+}
+
+.faq-head {
+  font-family: 'Cookie', serif;
+  font-size: 56px;
+}
+
+.faq-question {
+  padding-top: 1vh;
+  padding-bottom: 0.5vh;
+  color: #000;
+}
+
+.faq-answer {
+  padding-left: 3vh;
+  color: #000;
+}
+
+.registry {
+  text-align: center;
+  padding-top: 2vh;
+  padding-bottom: 3vh;
+  color: #000;
+}
+
+.registry-h {
+  font-family: 'Cookie', serif;
+  font-size: 56px;
+}
+
+.rsvp {
+  text-align: center;
+  color: #000;
+}
+
+.rsvp-head {
+  font-family: 'Cookie', serif;
+  font-size: 56px;
+}
+
+.content-page-box {
+  background-color: #e0f3dd;
+}
+
+@media screen and (max-width: 1040px) {
+  .our-story-p {
+    color: #000;
+    padding-top: 2vh;
+    padding-bottom: 3vh;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 18px;
+  }
+  
+  .our-story-sign {
+    color: #000;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 18px;
+  }
+  
+  .our-story-signature {
+    color: #000;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 18px;
+  }
+
+  .details-p {
+    padding-top: 3vh;
+    padding-bottom: 2vh;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #000;
+  }
 }
