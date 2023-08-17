@@ -7,7 +7,7 @@ function ContentPage() {
       <div className='text-item'>
         <div id="our-story" className="our-story">
           <h1 className="our-story-head">Our Story</h1>
-          <p className='our-story-p'>We met as engineering students, and our connection grew stronger through shared laughter and late-night studies. After earning our degrees, we ventured to Rochester, Minnesota, where our bond deepened amid career challenges. Now, we're excited to take the next step in our journey surrounded by loved ones. Join us in celebrating our story of love, commitment, and growth.</p>
+          <p className='our-story-p'>We met as engineering students, and our connection grew stronger through shared laughter and late-night studies. After earning our degrees, we ventured to Rochester, Minnesota, where our bond deepened amid career challenges. Now, we&apos;re excited to take the next step in our journey surrounded by loved ones. Join us in celebrating our story of love, commitment, and growth.</p>
           <p className='our-story-sign'>With Love,</p>
           <p className='our-story-signature'>Mykenzie & Corbin</p>
         </div>
