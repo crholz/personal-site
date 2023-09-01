@@ -12,7 +12,7 @@
   text-decoration: underline 3px;
   padding-top: 2vh;
   text-align: center;
-  font-family: 'Cookie', serif;
+  font-family: 'Mr De Haviland', serif;
   font-size: 56px;
 }
 
@@ -23,6 +23,7 @@
   padding-left: 25%;
   padding-right: 25%;
   font-size: 24px;
+  font-family: 'Delius', serif;
 }
 
 .our-story-sign {
@@ -30,6 +31,7 @@
   padding-left: 25%;
   padding-right: 25%;
   font-size: 24px;
+  font-family: 'Delius', serif;
 }
 
 .our-story-signature {
@@ -37,33 +39,38 @@
   padding-left: 25%;
   padding-right: 25%;
   font-size: 24px;
+  font-family: 'Delius', serif;
 }
 
 .details-head {
   padding-top: 2vh;
   text-align: center;
   color: #000;
-  font-family: 'Cookie', serif;
+  font-family: 'Mr De Haviland', serif;
   font-size: 56px;
 }
 
 .location-text {
   text-align: center;
   color: #000;
+  font-family: 'Delius', serif;
 }
 
 .location-name {
   text-align: center;
   color: #000;
+  font-family: 'Delius', serif;
 }
 
 .location-addr {
   text-align: center;
   color: #000;
+  font-family: 'Delius', serif;
 }
 .location-city {
   text-align: center;
   color: #000;
+  font-family: 'Delius', serif;
 }
 
 .details-p {
@@ -72,6 +79,7 @@
   padding-left: 25%;
   padding-right: 25%;
   color: #000;
+  font-family: 'Delius', serif;
 }
 
 .google-map {
@@ -82,13 +90,14 @@
 
 .google-map-item {
   border: 3px #c9e2c5;
+  font-family: 'Delius', serif;
 }
 
 .wedding-party-head {
   text-align: center;
   padding-top: 5vh;
   color: #000;
-  font-family: 'Cookie', serif;
+  font-family: 'Mr De Haviland', serif;
   font-size: 56px;
 }
 
@@ -103,7 +112,7 @@
   padding-top: 3vh;
   padding-bottom: 2vh;
   color: #000;
-  font-family: 'Cookie', serif;
+  font-family: 'Mr De Haviland', serif;
   font-size: 32px
 }
 
@@ -111,7 +120,7 @@
   padding-top: 5vh;
   text-align: center;
   color: #000;
-  font-family: 'Cookie', serif;
+  font-family: 'Mr De Haviland', serif;
   font-size: 32px;
 }
 
@@ -122,13 +131,14 @@
 .accomodations-head {
   text-align: center;
   color: #000;
-  font-family: 'Cookie', serif;
+  font-family: 'Mr De Haviland', serif;
   font-size: 56px;
 }
 
 .accomodations-p {
   text-align: center;
   color: #000;
+  font-family: 'Delius', serif;
 }
 
 .faq {
@@ -140,7 +150,7 @@
 }
 
 .faq-head {
-  font-family: 'Cookie', serif;
+  font-family: 'Mr De Haviland', serif;
   font-size: 56px;
 }
 
@@ -148,11 +158,13 @@
   padding-top: 1vh;
   padding-bottom: 0.5vh;
   color: #000;
+  font-family: 'Delius', serif;
 }
 
 .faq-answer {
   padding-left: 3vh;
   color: #000;
+  font-family: 'Delius', serif;
 }
 
 .registry {
@@ -160,10 +172,11 @@
   padding-top: 2vh;
   padding-bottom: 3vh;
   color: #000;
+  font-family: 'Delius', serif;
 }
 
 .registry-h {
-  font-family: 'Cookie', serif;
+  font-family: 'Mr De Haviland', serif;
   font-size: 56px;
 }
 
@@ -173,7 +186,7 @@
 }
 
 .rsvp-head {
-  font-family: 'Cookie', serif;
+  font-family: 'Mr De Haviland', serif;
   font-size: 56px;
 }
 
@@ -189,6 +202,7 @@
     padding-left: 10%;
     padding-right: 10%;
     font-size: 18px;
+    font-family: 'Delius', serif;
   }
   
   .our-story-sign {
@@ -196,6 +210,7 @@
     padding-left: 10%;
     padding-right: 10%;
     font-size: 18px;
+    font-family: 'Delius', serif;
   }
   
   .our-story-signature {
@@ -203,6 +218,7 @@
     padding-left: 10%;
     padding-right: 10%;
     font-size: 18px;
+    font-family: 'Delius', serif;
   }
 
   .details-p {
@@ -211,5 +227,28 @@
     padding-left: 10%;
     padding-right: 10%;
     color: #000;
+  }
+
+  .google-map-item {
+    border: 3px #c9e2c5;
+    width: 80%;
+    height: 40vh;
+  }
+
+  .wedding-party-list {
+    display: grid;
+    grid-template-columns: repeat(2, 25vh);
+    grid-gap: 1vh;
+    list-style: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3vh;
+    padding-bottom: 2vh;
+    color: #000;
+    font-family: 'Mr De Haviland', serif;
+    font-size: 3vh;
+    width: 5vh;
+    margin: auto;
   }
 }

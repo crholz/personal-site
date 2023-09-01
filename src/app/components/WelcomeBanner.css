@@ -1,0 +1,80 @@
+.welcome-banner-div {
+    padding-top: 3vh;
+    background-color: #e0f3dd;
+}
+
+.divbar-top {
+    width: 40vh;
+    margin: auto;
+    color: black;
+    padding-bottom: 1vh;
+
+}
+
+.divline {
+    border: 1px solid black;
+}
+
+.boquet-img {
+    width: 10vh;
+    height: 10vh;
+}
+
+.welcome-content {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome-text {
+    text-align: center;
+    width: 40vh;
+    font-family: 'Delius', serif;
+    justify-content: center;
+    margin:auto;
+    font-size:2vh;
+    color: black;
+}
+
+.divbar-bottom {
+    padding-top: 1vh;
+    width: 40vh;
+    margin: auto;
+
+}
+
+@media screen and (max-width: 1040px) {
+
+    .boquet-img {
+        width: 7vh;
+        height: 7vh;
+    }
+
+    .divbar-top {
+        width: 30vh;
+        margin: auto;
+        color: black;
+        padding-bottom: 1vh;
+    }
+
+    .divbar-bottom {
+        padding-top: 1vh;
+        width: 30vh;
+        margin: auto;
+    
+    }
+
+    .welcome-text {
+        text-align: center;
+        width: 30vh;
+        font-family: 'Delius', serif;
+        justify-content: center;
+        margin:auto;
+        font-size:2vh;
+        color: black;
+    }
+    
+
+}

@@ -78,7 +78,7 @@ function Navbar() {
                 className="navbar-item-text"
                 onClick={closeMobileMenu}
               >
-                FAQ
+                F A Q
               </Link>
             </li>
             <li className="navbar-item">
@@ -96,7 +96,7 @@ function Navbar() {
                 className="navbar-item-text"
                 onClick={closeMobileMenu}
               >
-                RSVP
+                Rsvp
               </Link>
             </li>
           </ul>
