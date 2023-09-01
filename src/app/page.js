@@ -11,7 +11,7 @@ export default function Home() {
       <Navbar />
       <HeaderBox />
       <WelcomeBanner />
-      <ContentPage className/>
+     // <ContentPage />
     </main>
   )
 }
