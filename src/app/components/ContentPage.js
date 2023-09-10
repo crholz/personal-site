@@ -177,7 +177,7 @@ function ContentPage() {
         <div id="faq" className="faq">
           <h1 className="faq-head">FAQ</h1>
           <p className='faq-question'>Are kids allowed?</p>
-          <p className='faq-answer'>No, this is an adult only event. We ask that please you get a sitter and enjoy a night without the kids.</p>
+          <p className='faq-answer'>No, this is an adult only event. We ask that you please get a sitter and enjoy a night without the kids.</p>
           <p className='faq-question'>Is there a dress code?</p>
           <p className='faq-answer'>Not really, please look presentable and avoid wearing sage green and dusty blue. Also keep in mind this event is taking place outside/in a barn so dress for the terrain ( We suggest no heels) and for the weather.</p>
           <p className='faq-question'>Can we take photos?</p>
