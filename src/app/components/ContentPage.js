@@ -31,12 +31,12 @@ function ContentPage() {
             </ul>
             <ul className='date-entry'>
               <li className='date-year'>2023:</li>
-              <li className='date-story'>We took living seven hours apart again in stride, knowing that it was Mykenzie’s final semester of college and we would be together again in a few months. During February Corbin was coming to visit Mykenzie for Michigan Tech’s Winter Carnival with a plan worked out with her friends. After Mykenzie got to spend a day with her friends, they suggested the end it with a hike. As they went along the trail, they knew that Corbin would be waiting with a surprise. As we rounded a bend she saw him and knew what was happening. As she approached him, he got down on one knee in the snow and popped the question. After saying yes and excitedly sharing the news we unfortunately still had two month to go of long distance. Soon enough Mykenzie graduated and moved back out to Minnesota where we are have started to build our life together.</li>
+              <li className='date-story'>We took living seven hours apart again in stride, knowing that it was Mykenzie&apos;s final semester of college and we would be together again in a few months. During February Corbin was coming to visit Mykenzie for Michigan Tech&apos;s Winter Carnival with a plan worked out with her friends. After Mykenzie got to spend a day with her friends, they suggested the end it with a hike. As they went along the trail, they knew that Corbin would be waiting with a surprise. As we rounded a bend she saw him and knew what was happening. As she approached him, he got down on one knee in the snow and popped the question. After saying yes and excitedly sharing the news we unfortunately still had two month to go of long distance. Soon enough Mykenzie graduated and moved back out to Minnesota where we are have started to build our life together.</li>
             </ul>
           </div>
           <div className="divbar-top"><hr className="divline"/></div>
           <div className='story-footer'>
-            <p className='story-footer-text'>That’s our story so far! We hope to see you all on September 7th of 2024 to celebrate our</p>
+            <p className='story-footer-text'>That&apos;s our story so far! We hope to see you all on September 7th of 2024 to celebrate our</p>
             <p className='story-footer-text'>love as we join hands in marriage!</p>
           </div>
           <div className="divbar-bottom"><hr className="divline"/></div>
@@ -156,7 +156,7 @@ function ContentPage() {
           </div>
           <div className='hotel-info'>
             <img src='/images/hotel-2.jpg' className='hotel-photo' />
-            <p className='hotel-name'>America's Best Value Inn</p>
+            <p className='hotel-name'>Americas Best Value Inn</p>
             <p className='hotel-addr'>1010 M-28, Marquette, MI 49855</p>
             <p className='hotel-dist'>Distance From Venue: 7 Minutes</p>
             <p><a className='hotel-website' href='https://www.abvimarquette.com/'>Website</a> Phone: (906) 249-1712</p>
