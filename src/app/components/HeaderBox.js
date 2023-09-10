@@ -13,7 +13,7 @@ function HeaderBox() {
           <h1 className="header-text">Corbin and Mykenzie</h1>
           <h1 className="header-text">09/07/2024</h1>
           <CountdownTimer targetDate={WEDDING_DATE} />
-          <p className="para-text">Check back later to rsvp here.</p>
+          {/*<p className="para-text">RSVP Will be Available Here in the Future.</p>*/}
         </div>
       </div>
     </>

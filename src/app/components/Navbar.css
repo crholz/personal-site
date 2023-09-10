@@ -1,5 +1,5 @@
 .navbar {
-    height: 80px;
+    height: 10vh;
     display: flex;
     font-size: 1.2rem;
     top: 0;
@@ -13,26 +13,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80px;
+    height: 10vh;
     width: 100%;
     font-family: 'Mr De Haviland', serif;
   }
 
   .navbar-text {
-    color: #ffff;
-    font-size: 50px;
+    color: #ffff; 
+    font-size: 6vh;
     white-space: nowrap;
     margin-left: 1vw;
     display: flex;
     font-family: 'Mr De Haviland', serif;
-    letter-spacing: 4px;
+    letter-spacing: 1vh;
     position: 0;
   }
 
   .navbar-menu {
     display: grid;
     grid-template-columns: repeat(7, auto);
-    grid-gap: 10px;
+    grid-gap: 1vh;
     list-style: none;
     text-align: center;
     width: 90%;
@@ -40,7 +40,7 @@
   }
 
   .navbar-item {
-    height: 80px;
+    height: 1vh;
     white-space: nowrap;
   }
 
@@ -50,7 +50,7 @@
     align-items: center;
     text-decoration: none;
     font-family: 'Mr De Haviland', serif;
-    font-size: 2rem;
+    font-size: 4vh;
     padding: 0.5rem 1rem;
     height: 100%;
     scroll-behavior: smooth;
@@ -82,19 +82,18 @@
       display: flex;
       flex-direction: column;
       width: 100%;
-      height: 90vh;
       position: absolute;
       top: 80px;
       left: -100%;
       opacity: 1;
       transition: all 0.5s ease;
-      height: 100%;
+      height: 100vh;
       position: absolute;
     }
 
     .navbar-text {
       color: #ffff;
-      font-size: 50px;
+      font-size: 6vh;
       white-space: nowrap;
       margin-left: 10%;
       margin-right: 75%;
@@ -115,27 +114,29 @@
     }
 
     .navbar-menu.active {
-      background: #7faf8d;
+      background: #879daa;
       left: 0;
       opacity: 1;
-      height: 100%;
       transition: all 0.5s ease;
       display: flex;
-      height: 100vh;
-      justify-content: start;
-
+      height: 200vh;
+      justify-content: flex-start;
+      background-size: cover;
+      z-index: 1;
       position: fixed; 
       overflow-y: scroll;
       inset: 10;
     }
 
     .navbar-container.active {
-      background: #7faf8d;
+      background: #879daa;
       left: 0;
       opacity: 1;
       transition: all 0.5s ease;
-      z-index: 1;
+      z-index: 2;
       width: 100%;
+      height: 20vh;
+      padding-bottom: 7vh;
       align-items: top;
       overflow: hidden;
       position: fixed; 
@@ -153,13 +154,13 @@
       font-size: 1.5rem;
       background-color: transparent;
       color: #fff;
-      padding: 14px 20px;
+      padding: 3vh 20px;
       border: 1px solid #fff;
       transition: all 0.3s ease-out;
     }
 
     .navbar-item:hover {
-      background: #4f6b57;
+      background: #5d7583;
       color: #242424;
       transition: 250ms;
     }
@@ -170,7 +171,7 @@
       text-align: center;
       text-decoration: none;
       font-family: 'Mr De Haviland', serif;
-      font-size: 2rem;
+      font-size: 5vh;
       padding: 0.5rem 1rem;
       height: 100%;
       scroll-behavior: smooth;
