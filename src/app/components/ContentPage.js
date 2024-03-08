@@ -1,3 +1,4 @@
+import Script from 'next/script'
 import './ContentPage.css'
 
 function ContentPage() {
@@ -187,18 +188,18 @@ function ContentPage() {
         </div>
       </div>
       <div className='text-item'>
+        <div id="rsvp" className="rsvp">
+          <h1 className="rsvp-head">RSVP</h1>
+          <p className='rsvp-p'>Check back in the future to conveniently RSVP from this page.</p>
+        </div>
+      </div>
+      <div className='text-item'>
         <div id="registry" className="registry">
           <h1 className="registry-h">Registry</h1>
           <p className='registry-p'>Gifts are appreciated but never expected. Please do not feel required to give a gift. Closer to the wedding we will release a list if you would like to contribute to our future together!</p>
           <div id="reg-script" className='reg-box'>
-            <br><script id='script_myregistry_giftlist_iframe' type='text/javascript' src='//www.myregistry.com//Visitors/GiftList/iFrames/EmbedRegistry.ashx?r=tGIzShYCzRjZq_yPBBO8yw2&v=2'></script></br>
+            <Script className='myregistry_embeded_iframe' id='script_myregistry_giftlist_iframe' type='text/javascript' src='//www.myregistry.com//Visitors/GiftList/iFrames/EmbedRegistry.ashx?r=tGIzShYCzRjZq_yPBBO8yw2&v=2' ></Script>
           </div>
-        </div>
-      </div>
-      <div className='text-item'>
-        <div id="rsvp" className="rsvp">
-          <h1 className="rsvp-head">RSVP</h1>
-          <p className='rsvp-p'>Check back in the future to conveniently RSVP from this page.</p>
         </div>
       </div>
     </div>
