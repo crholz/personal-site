@@ -83,20 +83,20 @@ function Navbar() {
             </li>
             <li className="navbar-item">
               <Link
-                href="/#registry"
-                className="navbar-item-text"
-                onClick={closeMobileMenu}
-              >
-                Registry
-              </Link>
-            </li>
-            <li className="navbar-item">
-              <Link
                 href="/#rsvp"
                 className="navbar-item-text"
                 onClick={closeMobileMenu}
               >
                 Rsvp
+              </Link>
+            </li>
+            <li className="navbar-item">
+              <Link
+                href="/#registry"
+                className="navbar-item-text"
+                onClick={closeMobileMenu}
+              >
+                Registry
               </Link>
             </li>
           </ul>

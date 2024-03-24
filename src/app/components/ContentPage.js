@@ -190,7 +190,12 @@ function ContentPage() {
       <div className='text-item'>
         <div id="rsvp" className="rsvp">
           <h1 className="rsvp-head">RSVP</h1>
-          <p className='rsvp-p'>Check back in the future to conveniently RSVP from this page.</p>
+          <p className='rsvp-p'>If you have received an RSVP, the following can be used to conveniently RSVP</p>
+	        <div className="rsvp-embed">
+            <iframe className="rsvp-iframe" 
+              src="https://corbinandmykenzie.anrsvp.com/?embed=true" scrolling='no'>
+            </iframe>
+          </div>
         </div>
       </div>
       <div className='text-item'>
