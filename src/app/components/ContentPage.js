@@ -59,7 +59,7 @@ function ContentPage() {
           <p className='details-p'>Getting to the venue: Get to US 41 and travel it until you reach Magnum Road. Which is on the left right after GT Sales. You will follow this road for about 5 minutes where you should see the barn on your right. There will be signs to show where to park</p>
           <div className="divbar-dotted-bottom"><hr className="divline-dotted"/></div>
           <div className='google-map'>
-            <iframe className='google-map-item' src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10994.288144605103!2d-87.2771072!3d46.4571762!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4d4e185b3d01a50f%3A0xd192a5143d6f30d6!2sBelsolda%20farm!5e0!3m2!1sen!2sus!4v1692237051816!5m2!1sen!2sus" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe className='google-map-item' src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10994.288144605103!2d-87.2771072!3d46.4571762!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4d4e185b3d01a50f%3A0xd192a5143d6f30d6!2sBelsolda%20farm!5e0!3m2!1sen!2sus!4v1692237051816!5m2!1sen!2sus" width="600" height="100" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
       </div>
