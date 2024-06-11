@@ -2,8 +2,6 @@
 import Script from 'next/script'
 import './ContentPage.css'
 
-import { motion } from 'framer-motion';
-
 function ContentPage() {
   return (
     <>
