@@ -1,5 +1,8 @@
+'use client';
 import Script from 'next/script'
 import './ContentPage.css'
+
+import { motion } from 'framer-motion';
 
 function ContentPage() {
   return (
@@ -60,6 +63,54 @@ function ContentPage() {
           <div className="divbar-dotted-bottom"><hr className="divline-dotted"/></div>
           <div className='google-map'>
             <iframe className='google-map-item' src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10994.288144605103!2d-87.2771072!3d46.4571762!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4d4e185b3d01a50f%3A0xd192a5143d6f30d6!2sBelsolda%20farm!5e0!3m2!1sen!2sus!4v1692237051816!5m2!1sen!2sus" width="600" height="100" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <h2 className='timeline-header'>Timeline</h2>
+          <div className='timeline'>
+            <div className='timeline-container-left'>
+              <img src="/images/icon-a.png" className="timeline-img-left" />
+              <div className='timeline-textbox'>
+                <h2 className='event-text'>Ceremony Starts!</h2>
+                <small className='event-small'>3:00 PM</small>
+                <p className='event-p'>The ceremony is set for 3:00 PM. Please make sure to arrive early. Seating will be limited.</p>
+                <span className='left-container-arrow'></span>
+              </div>
+            </div>
+            <div className='timeline-container-right'>
+              <img src="/images/icon-b.png" className="timeline-img-right" />
+              <div className='timeline-textbox'>
+                <h2 className='event-text'>Cocktail Hour</h2>
+                <small className='event-small'>3:30 PM</small>
+                <p className='event-p'>Dinner and Reception will be held at Belsolda Farm so you can relax and have a drink.</p>
+                <span className='right-container-arrow'></span>
+              </div>
+            </div>
+            <div className='timeline-container-left'>
+              <img src="/images/icon-c.png" className="timeline-img-left" />
+              <div className='timeline-textbox'>
+                <h2 className='event-text'>Dinner Starts</h2>
+                <small className='event-small'>5:00 PM</small>
+                <p className='event-p'>Enjoy a meal catered by Mama Russo's!</p>
+                <span className='left-container-arrow'></span>
+              </div>
+            </div>
+            <div className='timeline-container-right'>
+              <img src="/images/icon-d.png" className="timeline-img-right" />
+              <div className='timeline-textbox'>
+                <h2 className='event-text'>Reception Begins</h2>
+                <small className='event-small'>6:30 PM</small>
+                <p className='event-p'>At this time, dinner tables will start being moved to make space for the DJ and dancing.</p>
+                <span className='right-container-arrow'></span>
+              </div>
+            </div>
+            <div className='timeline-container-left'>
+              <img src="/images/icon-e.png" className="timeline-img-left" />
+              <div className='timeline-textbox'>
+                <h2 className='event-text'>Closing Time!</h2>
+                <small className='event-small'>11:00 PM</small>
+                <p className='event-p'>The music will be shut off at 11:00pm, and lights out is at midnight.</p>
+                <span className='left-container-arrow'></span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -193,7 +244,7 @@ function ContentPage() {
           <p className='rsvp-p'>If you have received an RSVP, the following can be used to conveniently RSVP</p>
 	        <div className="rsvp-embed">
             <iframe className="rsvp-iframe" 
-              src="https://corbinandmykenzie.anrsvp.com/?embed=true" scrolling='no'>
+              src="https://corbinandmykenzie.anrsvp.com/?embed=true" scrolling='no' wmode='transparent'>
             </iframe>
           </div>
         </div>

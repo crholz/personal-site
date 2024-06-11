@@ -14,9 +14,12 @@
     "@fortawesome/react-fontawesome": "^0.2.0",
     "eslint": "8.46.0",
     "eslint-config-next": "13.4.12",
-    "next": "13.4.12",
+    "framer": "^2.4.1",
+    "framer-motion": "^11.2.10",
+    "motion": "^10.18.0",
+    "next": "^14.2.3",
     "package-lock.json": "^1.0.0",
-    "react": "18.2.0",
+    "react": "^18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
