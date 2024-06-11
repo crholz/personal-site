@@ -2,6 +2,9 @@
   "name": "dream-wedding-site",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "18.19.1"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -23,8 +26,5 @@
   },
   "devDependencies": {
     "gh-pages": "^6.0.0"
-  },
-  "engines": {
-    "node": "18.17.1"
   }
 }
