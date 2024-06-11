@@ -87,7 +87,7 @@ function ContentPage() {
               <div className='timeline-textbox'>
                 <h2 className='event-text'>Dinner Starts</h2>
                 <small className='event-small'>5:00 PM</small>
-                <p className='event-p'>Enjoy a meal catered by Mama Russo's!</p>
+                <p className='event-p'>Enjoy a meal catered by Mama Russo&apos;s!</p>
                 <span className='left-container-arrow'></span>
               </div>
             </div>
