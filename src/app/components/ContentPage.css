@@ -29,11 +29,8 @@
 .picture-break-img {
   width: 25vh;
   height: auto;
-}
-
-.our-story {
-  width: 100%;
-  align-items: center;
+  border-radius: 25px;
+  border: 2px solid #859da3;
 }
 
 .our-story-head {
@@ -41,35 +38,35 @@
   padding-top: 4vh;
   text-align: center;
   font-family: 'Mr De Haviland', serif;
-  font-size: 6vh;
+  font-size: 4.5rem;
 }
 
 .date-entries {
-  text-align: center;
   font-size:2vh;
   padding-bottom: 3vh;
   color: #000;
 }
 
 .date-entry {
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-  grid-gap: 3vh;
-  list-style: none;
   padding-top: 3vh;
   font-family: 'Delius', serif;
-  padding-right: 6.5vh;
 }
 
 .date-year {
   font-family: 'Delius', serif;
-  text-align: right;
-  
+  position: relative;
+  left: -10%;
+  text-align: center;
 }
 
 .date-story {
-  max-width: 50vh;
-
+  position: relative;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+  font-size:1.2rem;
+  text-align: left;
+  width: 20%;
+  margin-left: 42%;
 }
 
 .story-footer {
@@ -80,7 +77,7 @@
 .story-footer-text {
   font-family: 'Delius', serif;
   text-align: center;
-  font-size:2vh;
+  font-size:1.3rem;
   color: #000;
 }
 
@@ -94,7 +91,7 @@
 .picture-break-dock-ring {
   width: 80vh;
   height: 50vh;
-  border-radius: 50%;
+  border-radius: 49%;
   background-color: #000;
   border-width: 4vh;
 }
@@ -104,7 +101,8 @@
   background-image: url('/images/picture-break-dock.jpg');
   width: 80vh;
   height: 50vh;
-  border-radius: 50%;
+  border-radius: 100px;
+  border: 2px solid #859da3;
   background-size: cover;
 }
 
@@ -118,34 +116,34 @@
   text-align: center;
   color: #000;
   font-family: 'Mr De Haviland', serif;
-  font-size: 6vh;
+  font-size: 4.5rem;
 }
 
 .location-text {
   text-align: center;
   color: #000;
   font-family: 'Delius', serif;
-  font-size: 2vh;
+  font-size: 1.5rem;
 }
 
 .location-name {
   text-align: center;
   color: #000;
   font-family: 'Delius', serif;
-  font-size: 2vh;
+  font-size: 1.5rem;
 }
 
 .location-addr {
   text-align: center;
   color: #000;
   font-family: 'Delius', serif;
-  font-size: 2vh;
+  font-size: 1.5rem;
 }
 .location-city {
   text-align: center;
   color: #000;
   font-family: 'Delius', serif;
-  font-size: 2vh;
+  font-size: 1.5rem;
 }
 
 .details-p {
@@ -156,7 +154,7 @@
   padding-right: 25%;
   color: #000;
   font-family: 'Delius', serif;
-  font-size: 2vh;
+  font-size: 1.2rem;
 }
 
 .divbar-dotted-top {
@@ -196,6 +194,7 @@
   width: 80vh;
   height: 50vh;
   border-radius: 50%;
+  border: 2px solid #859da3;
   background-size: cover;
 }
 
@@ -209,7 +208,7 @@
   padding-top: 5vh;
   color: #000;
   font-family: 'Mr De Haviland', serif;
-  font-size: 6vh;
+  font-size: 4.5rem;
 }
 
 .wedding-party-list {
@@ -227,28 +226,30 @@
 }
 
 .member-role {
-  font-size: 2vh;
+  font-size: 1.3rem;
   font-family: 'Delius', serif;
 }
 
 .member-name {
-  font-size: 2vh;
+  font-size: 1.2rem;
   font-family: 'Delius', serif;
 }
 
 .member-desc {
-  font-size: 2vh;
+  font-size: 1.2rem;
   font-family: 'Delius', serif;
 }
 
 .wedding-party-img {
-  width: 20vh;
+  width: 10rem;
   border-radius: 25px;
-  border: 2px solid #73AD21;
+  border: 2px solid #859da3;
 }
 
 .aspen-photo {
-  width: 30vh;
+  width: 20rem;
+  border-radius: 25px;
+  border: 2px solid #859da3;
 }
 
 .bonusparty {
@@ -257,6 +258,7 @@
   color: #000;
   font-family: 'Delius', serif;
   font-size: 2.5vh;
+  font-size: 1.5rem;
 }
 
 .accomodations {
@@ -271,13 +273,16 @@
   padding-top: 2vh;
   text-align: center;
   font-family: 'Delius', serif;
-  padding-bottom: 2vh;
+  padding-bottom: 5rem;
   font-size: 2vh;
   color: #000;
+  font-size: 1.2rem;
 }
 
 .hotel-photo {
-  width: 40vh;
+  width: 20rem;
+  border-radius: 25px;
+  border: 2px solid #29272e;
 }
 
 .hotel-website {
@@ -295,13 +300,15 @@
   color: #000;
   font-family: 'Mr De Haviland', serif;
   font-size: 6vh;
+  font-size: 4.5rem;
 }
 
 .accomodations-p {
   text-align: center;
   color: #000;
   font-family: 'Delius', serif;
-  font-size: 2vh;
+  font-size: 1.2rem;
+  padding-bottom: 3rem;
 }
 
 .faq {
@@ -314,12 +321,12 @@
 
 .faq-head {
   font-family: 'Mr De Haviland', serif;
-  font-size: 6vh;
   text-align: center;
+  font-size: 4.5rem;
 }
 
 .faq-question {
-  padding-top: 1vh;
+  padding-top: 2.5rem;
   padding-bottom: 0.5vh;
   color: #000;
   font-family: 'Delius', serif;
@@ -331,27 +338,30 @@
   color: #000;
   font-family: 'Delius', serif;
   font-size: 2vh;
+  padding-top: 0.5rem;
 }
 
 .registry-p {
   font-family: 'Delius', serif;
-  font-size: 2vh;
+  font-size: 1.2rem;
   text-align: center;
   margin: auto;
   justify-content: center;
   max-width: 70vh;
+  padding-top: 1.2rem;
 }
 
 .registry {
   text-align: center;
-  padding-bottom: 3vh;
+  padding-bottom: 3rem;
   color: #000;
   font-family: 'Delius', serif;
 }
 
 .registry-h {
   font-family: 'Mr De Haviland', serif;
-  font-size: 6vh;
+  font-size: 4.5rem;
+  padding-top: 2rem;
 }
 
 .rsvp {
@@ -363,7 +373,8 @@
 
 .rsvp-head {
   font-family: 'Mr De Haviland', serif;
-  font-size: 6vh;
+  font-size: 4.5rem;
+  padding-top: 1rem;
 }
 
 .rsvp-p {
@@ -481,6 +492,17 @@
     position: relative;
     max-width: 1200px;
   }
+
+  .date-story {
+    position: relative;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+    font-size:1.2rem;
+    text-align: left;
+    width:50%;
+    margin-left: 42%;
+  }
+  
   
   .timeline-container-left {
     padding: 10px 15px;

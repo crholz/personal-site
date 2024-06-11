@@ -15,26 +15,16 @@ function ContentPage() {
         <div id="our-story" className="our-story">
           <h1 className="our-story-head">Our Story</h1>
           <div className='date-entries'>
-            <ul className='date-entry'>
-              <li className='date-year'>2019:</li>
-              <li className='date-story'>Both attending Michigan Technological University as engineering students we happened to cross paths. On September 9th we went on our first date at Rodeo, a mexican restaurant that to this day we both very much enjoy. Starting right on this day we knew that we had a strong connection.</li>
-            </ul>
-            <ul className='date-entry'>
-              <li className='date-year'>2020:</li>
-              <li className='date-story'>After spending time together growing our connection and making memories, we decided to go to the Mall of America for spring break. We had a great time on our first vacation together, but on the way home we got the alert that things were shutting down for COVID. For us this meant classes were going online and there would be no more living in the dorms. This resulted in us moving in together pretty early on. For the rest of the year we got to spend pretty much everyday together and get to know everything about one another. This time is when we knew that we were falling in love with each other.</li>
-            </ul>
-            <ul className='date-entry'>
-              <li className='date-year'>2021:</li>
-              <li className='date-story'>As this year rolled around things started to go back to normal which meant that we got back to normal routine as well. Unfortunately we both knew what this year would also bring. Corbin was graduating and moving to Minnesota to start his job. From this point there are two years where we would have to spend most of our time apart. As the time went on with us traveling to visit one another whenever we got the chance we made the best out of the situation. We also realized that if we could get through this that we could get through anything together</li>
-            </ul>
-            <ul className='date-entry'>
-              <li className='date-year'>2022:</li>
-              <li className='date-story'>Mykenzie got an internship in Minnesota, and we got to live together for about 8 months. During this time we Aspen our basset hound puppy, explored Minnesota, and grew the love between us. After this time we both knew it was pretty likely in the next year we would get engaged.</li>
-            </ul>
-            <ul className='date-entry'>
-              <li className='date-year'>2023:</li>
-              <li className='date-story'>We took living seven hours apart again in stride, knowing that it was Mykenzie&apos;s final semester of college and we would be together again in a few months. During February Corbin was coming to visit Mykenzie for Michigan Tech&apos;s Winter Carnival with a plan worked out with her friends. After Mykenzie got to spend a day with her friends, they suggested the end it with a hike. As they went along the trail, they knew that Corbin would be waiting with a surprise. As we rounded a bend she saw him and knew what was happening. As she approached him, he got down on one knee in the snow and popped the question. After saying yes and excitedly sharing the news we unfortunately still had two month to go of long distance. Soon enough Mykenzie graduated and moved back out to Minnesota where we are have started to build our life together.</li>
-            </ul>
+              <h2 className='date-year'>2019:</h2>
+              <p className='date-story'>Both attending Michigan Technological University as engineering students we happened to cross paths. On September 9th we went on our first date at Rodeo, a mexican restaurant that to this day we both very much enjoy. Starting right on this day we knew that we had a strong connection.</p>
+              <h2 className='date-year'>2020:</h2>
+              <p className='date-story'>After spending time together growing our connection and making memories, we decided to go to the Mall of America for spring break. We had a great time on our first vacation together, but on the way home we got the alert that things were shutting down for COVID. For us this meant classes were going online and there would be no more living in the dorms. This resulted in us moving in together pretty early on. For the rest of the year we got to spend pretty much everyday together and get to know everything about one another. This time is when we knew that we were falling in love with each other.</p>
+              <h2 className='date-year'>2021:</h2>
+              <p className='date-story'>As this year rolled around things started to go back to normal which meant that we got back to normal routine as well. Unfortunately we both knew what this year would also bring. Corbin was graduating and moving to Minnesota to start his job. From this point there are two years where we would have to spend most of our time apart. As the time went on with us traveling to visit one another whenever we got the chance we made the best out of the situation. We also realized that if we could get through this that we could get through anything together</p>
+              <h2 className='date-year'>2022:</h2>
+              <p className='date-story'>Mykenzie got an internship in Minnesota, and we got to live together for about 8 months. During this time we Aspen our basset hound puppy, explored Minnesota, and grew the love between us. After this time we both knew it was pretty likely in the next year we would get engaged.</p>
+              <h2 className='date-year'>2023:</h2>
+              <p className='date-story'>We took living seven hours apart again in stride, knowing that it was Mykenzie&apos;s final semester of college and we would be together again in a few months. During February Corbin was coming to visit Mykenzie for Michigan Tech&apos;s Winter Carnival with a plan worked out with her friends. After Mykenzie got to spend a day with her friends, they suggested the end it with a hike. As they went along the trail, they knew that Corbin would be waiting with a surprise. As we rounded a bend she saw him and knew what was happening. As she approached him, he got down on one knee in the snow and popped the question. After saying yes and excitedly sharing the news we unfortunately still had two month to go of long distance. Soon enough Mykenzie graduated and moved back out to Minnesota where we are have started to build our life together.</p>
           </div>
           <div className="divbar-top"><hr className="divline"/></div>
           <div className='story-footer'>
@@ -69,7 +59,7 @@ function ContentPage() {
               <div className='timeline-textbox'>
                 <h2 className='event-text'>Ceremony Starts!</h2>
                 <small className='event-small'>3:00 PM</small>
-                <p className='event-p'>The ceremony is set for 3:00 PM. Please make sure to arrive early. Seating will be limited.</p>
+                <p className='event-p'>The ceremony is set for 3:00 PM. Please make sure to arrive early!</p>
                 <span className='left-container-arrow'></span>
               </div>
             </div>
@@ -87,7 +77,7 @@ function ContentPage() {
               <div className='timeline-textbox'>
                 <h2 className='event-text'>Dinner Starts</h2>
                 <small className='event-small'>5:00 PM</small>
-                <p className='event-p'>Enjoy a meal catered by Mama Russo&apos;s!</p>
+                <p className='event-p'>Enjoy a meal catered by Mama Russo&apos;s.</p>
                 <span className='left-container-arrow'></span>
               </div>
             </div>
@@ -96,7 +86,7 @@ function ContentPage() {
               <div className='timeline-textbox'>
                 <h2 className='event-text'>Reception Begins</h2>
                 <small className='event-small'>6:30 PM</small>
-                <p className='event-p'>At this time, dinner tables will start being moved to make space for the DJ and dancing.</p>
+                <p className='event-p'>At this time, dinner tables will start being moved to make space for the DJ and dancing/</p>
                 <span className='right-container-arrow'></span>
               </div>
             </div>

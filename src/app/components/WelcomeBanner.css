@@ -8,6 +8,7 @@
     margin: auto;
     color: black;
     padding-bottom: 1vh;
+    padding-top: 1.5rem;
 
 }
 
@@ -30,11 +31,11 @@
 
 .welcome-text {
     text-align: center;
-    width: 40vh;
+    width: 30rem;
     font-family: 'Delius', serif;
     justify-content: center;
     margin:auto;
-    font-size:2vh;
+    font-size: 1.5rem;
     color: black;
 }
 
@@ -42,6 +43,7 @@
     padding-top: 1vh;
     width: 40vh;
     margin: auto;
+    padding-bottom: 1.5rem;
 
 }
 
