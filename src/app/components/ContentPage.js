@@ -14,17 +14,31 @@ function ContentPage() {
       <div className='text-item'>
         <div id="our-story" className="our-story">
           <h1 className="our-story-head">Our Story</h1>
-          <div className='date-entries'>
-              <h2 className='date-year'>2019:</h2>
-              <p className='date-story'>Both attending Michigan Technological University as engineering students we happened to cross paths. On September 9th we went on our first date at Rodeo, a mexican restaurant that to this day we both very much enjoy. Starting right on this day we knew that we had a strong connection.</p>
-              <h2 className='date-year'>2020:</h2>
-              <p className='date-story'>After spending time together growing our connection and making memories, we decided to go to the Mall of America for spring break. We had a great time on our first vacation together, but on the way home we got the alert that things were shutting down for COVID. For us this meant classes were going online and there would be no more living in the dorms. This resulted in us moving in together pretty early on. For the rest of the year we got to spend pretty much everyday together and get to know everything about one another. This time is when we knew that we were falling in love with each other.</p>
-              <h2 className='date-year'>2021:</h2>
-              <p className='date-story'>As this year rolled around things started to go back to normal which meant that we got back to normal routine as well. Unfortunately we both knew what this year would also bring. Corbin was graduating and moving to Minnesota to start his job. From this point there are two years where we would have to spend most of our time apart. As the time went on with us traveling to visit one another whenever we got the chance we made the best out of the situation. We also realized that if we could get through this that we could get through anything together</p>
-              <h2 className='date-year'>2022:</h2>
-              <p className='date-story'>Mykenzie got an internship in Minnesota, and we got to live together for about 8 months. During this time we Aspen our basset hound puppy, explored Minnesota, and grew the love between us. After this time we both knew it was pretty likely in the next year we would get engaged.</p>
-              <h2 className='date-year'>2023:</h2>
-              <p className='date-story'>We took living seven hours apart again in stride, knowing that it was Mykenzie&apos;s final semester of college and we would be together again in a few months. During February Corbin was coming to visit Mykenzie for Michigan Tech&apos;s Winter Carnival with a plan worked out with her friends. After Mykenzie got to spend a day with her friends, they suggested the end it with a hike. As they went along the trail, they knew that Corbin would be waiting with a surprise. As we rounded a bend she saw him and knew what was happening. As she approached him, he got down on one knee in the snow and popped the question. After saying yes and excitedly sharing the news we unfortunately still had two month to go of long distance. Soon enough Mykenzie graduated and moved back out to Minnesota where we are have started to build our life together.</p>
+          <div className="new-story-timeline">
+            <div className="new-story-event">
+                <h3 className="new-story-date-year">2019</h3>
+                <p className="new-story-date-story">We met at Michigan Technological University as engineering students. Our first date on September 9th at Rodeo, a Mexican restaurant we still love, marked the beginning of our strong connection.</p>
+            </div>
+            
+            <div className="new-story-event">
+                <h3 className="new-story-date-year">2020</h3>
+                <p className="new-story-date-story">We grew closer, making memories and enjoying our first vacation together at the Mall of America. The COVID-19 lockdowns led us to move in together early, spending nearly every day together and falling in love.</p>
+            </div>
+            
+            <div className="new-story-event">
+                <h3 className="new-story-date-year">2021</h3>
+                <p className="new-story-date-story">Life returned to normal, but Corbin graduated and moved to Minnesota for work. Despite the distance, we visited each other often, realizing that if we could get through this, we could overcome anything together.</p>
+            </div>
+            
+            <div className="new-story-event">
+                <h3 className="new-story-date-year">2022</h3>
+                <p className="new-story-date-story">Mykenzie interned in Minnesota, and we lived together for 8 months. We got Aspen, our basset hound puppy, and explored Minnesota, deepening our love and knowing an engagement was likely soon.</p>
+            </div>
+            
+            <div className="new-story-event">
+                <h3 className="new-story-date-year">2023</h3>
+                <p className="new-story-date-story">Despite being seven hours apart, we knew it was Mykenzie's final semester. In February, Corbin proposed during Michigan Tech's Winter Carnival. After graduation, Mykenzie moved to Minnesota, and we began building our life together.</p>
+            </div>
           </div>
           <div className="divbar-top"><hr className="divline"/></div>
           <div className='story-footer'>
@@ -108,78 +122,98 @@ function ContentPage() {
         </div>
       </div>
       <div className='text-item'>
-        <div id="wedding-party" className="wedding-party">
-          <h1 className="wedding-party-head">Wedding Party</h1>
-          <ul className='wedding-party-list'>
-            <li className='bridesmaid-side'>
-            <p className='member-role'>Maid of Honor</p>
-              <img src="/images/sam-square.jpg" className="wedding-party-img" />
-              <p className='member-name'>Samantha Walker -</p>
-              <p className='member-desc'>Friend of the Bride</p>
-            </li>
-            <li className='groomsman-side'>
-              <p className='member-role'>Best Man</p>
-              <img src="/images/ian-square.jpg" className="wedding-party-img" />
-              <p className='member-name'>Ian Jones-</p>
-              <p className='member-desc'>Friend of the Groom</p>
-            </li>
-            <li className='bridesmaid-side'>
-              <p className='member-role'>Bridesmaid</p>
-              <img src="/images/becky-square.jpg" className="wedding-party-img" />
-              <p className='member-name'>Rebecca Stover -</p>
-              <p className='member-desc'>Friend of the Bride</p>
-            </li>
-            <li className='groomsman-side'>
-              <p className='member-role'>Groomsman</p>
-              <img src="/images/brett-square.jpg" className="wedding-party-img" />
-              <p className='member-name'>Brett Hamilton -</p>
-              <p className='member-desc'>Friend of the Groom</p>
-            </li>
-            <li className='bridesmaid-side'>
-              <p className='member-role'>Bridesmaid</p>
-              <img src="/images/sarah-square.jpg" className="wedding-party-img" />
-              <p className='member-name'>Sarah Matson -</p>
-              <p className='member-desc'>Friend of the Bride</p>
-              
-            </li>
-            <li className='groomsman-side'>
-              <p className='member-role'>Groomsman</p>
-              <img src="/images/zach-square.jpg" className="wedding-party-img" />
-              <p className='member-name'>Zachary Bonus -</p>
-              <p className='member-desc'>Friend of the Groom</p>
-            </li>
-            <li className='bridesmaid-side'>
-            <p className='member-role'>Bridesmaid</p>
-              <img src="/images/katie-square.jpg" className="wedding-party-img" />
-              <p className='member-name'>Kaitlyn Rymarsuk -</p>
-              <p className='member-desc'>Cousin of the Bride</p>
-            </li>
-            <li className='groomsman-side'>
-              <p className='member-role'>Groomsman</p>
-              <img src="/images/darius-square.jpg" className="wedding-party-img" />
-              <p className='member-name'>Darius Shultz -</p>
-              <p className='member-desc'>Friend of the Groom</p>
-            </li>
-            <li className='bridesmaid-side'>
-              <p className='member-role'>Junior Bridesmaid</p>
-              <img src="/images/kayla-square.jpg" className="wedding-party-img" />
-              <p className='member-name'>Mykayla Brown -</p>
-              <p className='member-desc'>Sister of the Bride</p>
-            </li>
-          <div className='groomsman-side'>
-          <p className='member-role'>Junior Bridesmaid</p>
-            <img src="/images/keira-square.jpg" className="wedding-party-img" />
-            <p className='member-name'>Mykeira Brown -</p>
-            <p className='member-desc'>Sister of the Bride</p>
-          </div>
-          </ul>
-          <div className='bonusparty'>
-            <p className='aspen-name'>Flower Girl</p>
-            
-            <img src="/images/aspen.jpg" className="aspen-photo" />
-            <p className='aspen-name'>Aspen -</p>
-            <p className='aspen-name'>Pet of the Bride and Groom</p>
-          </div>
+      <div id="wedding-party" className="wedding-party">
+            <h1 className="wedding-party-head">Wedding Party</h1>
+            <ul className="wedding-party-list">
+                <li className="wedding-party-item bridesmaid-side">
+                    <p className="member-role">Maid of Honor</p>
+                    <div className="wedding-party-img-container">
+                        <img src="/images/sam-square.jpg" alt="Samantha Walker" className="wedding-party-img" layout="fill" objectFit="cover" />
+                    </div>
+                    <p className="member-name">Samantha Walker</p>
+                    <p className="member-desc">Friend of the Bride</p>
+                </li>
+                <li className="wedding-party-item groomsman-side">
+                    <p className="member-role">Best Man</p>
+                    <div className="wedding-party-img-container">
+                        <img src="/images/ian-square.jpg" alt="Ian Jones" className="wedding-party-img" layout="fill" objectFit="cover" />
+                    </div>
+                    <p className="member-name">Ian Jones</p>
+                    <p className="member-desc">Friend of the Groom</p>
+                </li>
+                <li className="wedding-party-item bridesmaid-side">
+                    <p className="member-role">Bridesmaid</p>
+                    <div className="wedding-party-img-container">
+                        <img src="/images/becky-square.jpg" alt="Rebecca Stover" className="wedding-party-img" layout="fill" objectFit="cover" />
+                    </div>
+                    <p className="member-name">Rebecca Stover</p>
+                    <p className="member-desc">Friend of the Bride</p>
+                </li>
+                <li className="wedding-party-item groomsman-side">
+                    <p className="member-role">Groomsman</p>
+                    <div className="wedding-party-img-container">
+                        <img src="/images/brett-square.jpg" alt="Brett Hamilton" className="wedding-party-img" layout="fill" objectFit="cover" />
+                    </div>
+                    <p className="member-name">Brett Hamilton</p>
+                    <p className="member-desc">Friend of the Groom</p>
+                </li>
+                <li className="wedding-party-item bridesmaid-side">
+                    <p className="member-role">Bridesmaid</p>
+                    <div className="wedding-party-img-container">
+                        <img src="/images/sarah-square.jpg" alt="Sarah Matson" className="wedding-party-img" layout="fill" objectFit="cover" />
+                    </div>
+                    <p className="member-name">Sarah Matson</p>
+                    <p className="member-desc">Friend of the Bride</p>
+                </li>
+                <li className="wedding-party-item groomsman-side">
+                    <p className="member-role">Groomsman</p>
+                    <div className="wedding-party-img-container">
+                        <img src="/images/zach-square.jpg" alt="Zachary Bonus" className="wedding-party-img" layout="fill" objectFit="cover" />
+                    </div>
+                    <p className="member-name">Zachary Bonus</p>
+                    <p className="member-desc">Friend of the Groom</p>
+                </li>
+                <li className="wedding-party-item bridesmaid-side">
+                    <p className="member-role">Bridesmaid</p>
+                    <div className="wedding-party-img-container">
+                        <img src="/images/katie-square.jpg" alt="Kaitlyn Rymarsuk" className="wedding-party-img" layout="fill" objectFit="cover" />
+                    </div>
+                    <p className="member-name">Kaitlyn Rymarsuk</p>
+                    <p className="member-desc">Cousin of the Bride</p>
+                </li>
+                <li className="wedding-party-item groomsman-side">
+                    <p className="member-role">Groomsman</p>
+                    <div className="wedding-party-img-container">
+                        <img src="/images/darius-square.jpg" alt="Darius Shultz" className="wedding-party-img" layout="fill" objectFit="cover" />
+                    </div>
+                    <p className="member-name">Darius Shultz</p>
+                    <p className="member-desc">Friend of the Groom</p>
+                </li>
+                <li className="wedding-party-item bridesmaid-side">
+                    <p className="member-role">Junior Bridesmaid</p>
+                    <div className="wedding-party-img-container">
+                        <img src="/images/kayla-square.jpg" alt="Mykayla Brown" className="wedding-party-img" layout="fill" objectFit="cover" />
+                    </div>
+                    <p className="member-name">Mykayla Brown</p>
+                    <p className="member-desc">Sister of the Bride</p>
+                </li>
+                <li className="wedding-party-item groomsman-side">
+                    <p className="member-role">Junior Bridesmaid</p>
+                    <div className="wedding-party-img-container">
+                        <img src="/images/keira-square.jpg" alt="Mykeira Brown" className="wedding-party-img" layout="fill" objectFit="cover" />
+                    </div>
+                    <p className="member-name">Mykeira Brown</p>
+                    <p className="member-desc">Sister of the Bride</p>
+                </li>
+            </ul>
+            <div className="bonusparty">
+                <p className="aspen-role">Flower Girl</p>
+                <div className="aspen-wedding-party-img-container">
+                    <img src="/images/aspen.jpg" alt="Aspen" className="aspen-photo" layout="fill" objectFit="cover" />
+                </div>
+                <p className="aspen-name">Aspen -</p>
+                <p className="aspen-desc">Pet of the Bride and Groom</p>
+            </div>
         </div>
       </div>
       <div className='text-item'>
@@ -209,7 +243,9 @@ function ContentPage() {
             <p><a className='hotel-website' href='https://magnusonhotelcountryinn.com/'>Website</a> Phone: (906) 485-6345</p>
           </div>
           <div className='hotel-dislosure'>
+            <div className="divbar-dotted-top"><hr className="divline-dotted"/></div>
             <p className='accomodations-p'>Please make sure to book your room sooner rather than later to ensure you get a room!</p>
+            <div className="divbar-dotted-bottom"><hr className="divline-dotted"/></div>
           </div>
         </div>
       </div>
@@ -240,7 +276,7 @@ function ContentPage() {
       <div className='text-item'>
         <div id="registry" className="registry">
           <h1 className="registry-h">Registry</h1>
-          <p className='registry-p'>Gifts are appreciated but never expected. Please do not feel required to give a gift. Closer to the wedding we will release a list if you would like to contribute to our future together!</p>
+          <p className='registry-p'>Gifts are appreciated but never expected. Please do not feel required to give a gift.</p>
           <div id="reg-script" className='reg-box'>
             <Script className='myregistry_embeded_iframe' id='script_myregistry_giftlist_iframe' type='text/javascript' src='//www.myregistry.com//Visitors/GiftList/iFrames/EmbedRegistry.ashx?r=tGIzShYCzRjZq_yPBBO8yw2&v=2' ></Script>
           </div>

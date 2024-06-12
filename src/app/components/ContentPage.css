@@ -41,32 +41,71 @@
   font-size: 4.5rem;
 }
 
-.date-entries {
-  font-size:2vh;
-  padding-bottom: 3vh;
-  color: #000;
-}
-
-.date-entry {
-  padding-top: 3vh;
-  font-family: 'Delius', serif;
-}
-
-.date-year {
-  font-family: 'Delius', serif;
+.new-story-timeline {
+  display: flex;
+  justify-content: space-between;
+  overflow-x: hidden;
+  padding: 20px 0;
   position: relative;
-  left: -10%;
+  flex-wrap: wrap;
+}
+
+.new-story-event {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: hsl(118, 17%, 60%);;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  min-width: 200px;
+  margin: 10px;
+  flex-grow: 1;
+  flex-basis: calc(20% - 40px);
+  position: relative;
+}
+
+.new-story-marker {
+  width: 16px;
+  height: 16px;
+  background: #000;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.new-story-date-year {
+  color: #000;
+  margin-bottom: 10px;
   text-align: center;
 }
 
-.date-story {
-  position: relative;
-  padding-bottom: 2rem;
-  padding-top: 1rem;
-  font-size:1.2rem;
-  text-align: left;
-  width: 20%;
-  margin-left: 42%;
+.new-story-date-story {
+  margin: 0;
+  text-align: center;
+  color:#000;
+}
+
+.new-story-timeline::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: #ccc;
+  z-index: -1;
+}
+
+@media (max-width: 768px) {
+  .new-story-event {
+      flex-basis: calc(50% - 40px);
+  }
+}
+
+@media (max-width: 480px) {
+  .new-story-event {
+      flex-basis: calc(100% - 40px);
+  }
 }
 
 .story-footer {
@@ -75,7 +114,7 @@
 }
 
 .story-footer-text {
-  font-family: 'Delius', serif;
+  font-family: 'Noto Serif', serif;
   text-align: center;
   font-size:1.3rem;
   color: #000;
@@ -122,28 +161,28 @@
 .location-text {
   text-align: center;
   color: #000;
-  font-family: 'Delius', serif;
-  font-size: 1.5rem;
+  font-family: 'Noto Serif', serif;
+  font-size: 1.2rem;
 }
 
 .location-name {
   text-align: center;
   color: #000;
-  font-family: 'Delius', serif;
-  font-size: 1.5rem;
+  font-family: 'Noto Serif', serif;
+  font-size: 1.2rem;
 }
 
 .location-addr {
   text-align: center;
   color: #000;
-  font-family: 'Delius', serif;
-  font-size: 1.5rem;
+  font-family: 'Noto Serif', serif;
+  font-size: 1.2rem;
 }
 .location-city {
   text-align: center;
   color: #000;
-  font-family: 'Delius', serif;
-  font-size: 1.5rem;
+  font-family: 'Noto Serif', serif;
+  font-size: 1.2rem;
 }
 
 .details-p {
@@ -153,7 +192,7 @@
   padding-left: 25%;
   padding-right: 25%;
   color: #000;
-  font-family: 'Delius', serif;
+  font-family: 'Noto Serif', serif;
   font-size: 1.2rem;
 }
 
@@ -184,7 +223,7 @@
 
 .google-map-item {
   border: 3px #d3dde3;
-  font-family: 'Delius', serif;
+  font-family: 'Noto Serif', serif;
   max-height: 500px;
 }
 
@@ -193,7 +232,7 @@
   background-image: url('/images/picture-break-woods.jpg');
   width: 80vh;
   height: 50vh;
-  border-radius: 50%;
+  border-radius: 100px;
   border: 2px solid #859da3;
   background-size: cover;
 }
@@ -209,56 +248,203 @@
   color: #000;
   font-family: 'Mr De Haviland', serif;
   font-size: 4.5rem;
+  padding-bottom: 2rem;
+}
+
+#wedding-party {
+  font-family: 'Noto Serif', serif;
+  color: #333;
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .wedding-party-list {
-  display: grid;
-  grid-template-columns: repeat(2, 25vh);
-  grid-gap: 2vh;
-  list-style: none;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  padding-top: 3vh;
-  padding-bottom: 2vh;
-  color: #000;
-  font-size: 4vh
+  list-style: none;
+  padding: 0;
+}
+
+.wedding-party-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  width: 100%;
 }
 
 .member-role {
-  font-size: 1.3rem;
-  font-family: 'Delius', serif;
+  font-size: 1.5rem;
+  font-family: 'Noto Serif', serif;
 }
 
 .member-name {
-  font-size: 1.2rem;
-  font-family: 'Delius', serif;
+  font-size: 1.3rem;
+  font-family: 'Noto Serif', serif;
 }
 
 .member-desc {
   font-size: 1.2rem;
-  font-family: 'Delius', serif;
+  font-family: 'Noto Serif', serif;
 }
 
-.wedding-party-img {
-  width: 10rem;
+.wedding-party-img-container {
+  width: 15rem;
+  height: 15rem;
   border-radius: 25px;
+  overflow: hidden;
   border: 2px solid #859da3;
+  margin: 10px 0;
 }
 
+.wedding-party-img,
 .aspen-photo {
-  width: 20rem;
-  border-radius: 25px;
-  border: 2px solid #859da3;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 
 .bonusparty {
-  padding-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
-  color: #000;
-  font-family: 'Delius', serif;
-  font-size: 2.5vh;
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.aspen-role,
+.aspen-name,
+.aspen-desc {
+  font-family: 'Noto Serif', serif;
+}
+
+.aspen-role {
   font-size: 1.5rem;
+  font-family: 'Noto Serif', serif;
+}
+
+.aspen-name {
+  font-size: 1.3rem;
+  font-family: 'Noto Serif', serif;
+}
+
+.aspen-desc {
+  font-size: 1.2rem;
+  font-family: 'Noto Serif', serif;
+}
+
+.aspen-photo {
+  width: 25rem;
+  border-radius: 25px;
+  border: 2px solid #859da3;
+
+}
+
+@media (max-width: 767px) {
+  #wedding-party {
+    padding: 10px;
+  }
+
+  .wedding-party-head {
+    font-size: 4rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .wedding-party-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(200px, auto);
+    gap: 10px;
+  }
+
+  .wedding-party-item {
+    width: 100%;
+    background: #f9f9f9;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+  }
+
+  .member-role {
+    font-size: 1.2rem;
+    font-family: 'Noto Serif', serif;
+  }
+
+  .member-name {
+    font-size: 1rem;
+    font-family: 'Noto Serif', serif;
+  }
+
+  .member-desc {
+    font-size: 0.9rem;
+    font-family: 'Noto Serif', serif;
+  }
+
+  .wedding-party-img-container {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 2px solid #859da3;
+    margin: 10px 0;
+  }
+
+  .wedding-party-img,
+  .aspen-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .bonusparty {
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .aspen-role,
+  .aspen-name,
+  .aspen-desc {
+    font-size: 1.2rem;
+    font-family: 'Noto Serif', serif;
+  }
+
+  .aspen-photo {
+    width: 15rem;
+    border-radius: 15px;
+    border: 2px solid #859da3;
+  }
+}
+
+@media (min-width: 768px) {
+  .wedding-party-list {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-auto-rows: minmax(200px, auto);
+      gap: 20px;
+  }
+
+  .wedding-party-item {
+      width: auto;
+      margin-bottom: 0;
+  }
+
+  .bonusparty {
+      grid-column: span 2;
+  }
 }
 
 .accomodations {
@@ -272,9 +458,8 @@
 .hotel-info {
   padding-top: 2vh;
   text-align: center;
-  font-family: 'Delius', serif;
+  font-family: 'Noto Serif', serif;
   padding-bottom: 5rem;
-  font-size: 2vh;
   color: #000;
   font-size: 1.2rem;
 }
@@ -299,16 +484,16 @@
   text-align: center;
   color: #000;
   font-family: 'Mr De Haviland', serif;
-  font-size: 6vh;
   font-size: 4.5rem;
 }
 
 .accomodations-p {
   text-align: center;
   color: #000;
-  font-family: 'Delius', serif;
+  font-family: 'Noto Serif', serif;
   font-size: 1.2rem;
   padding-bottom: 3rem;
+  padding-top: 2rem;
 }
 
 .faq {
@@ -329,20 +514,20 @@
   padding-top: 2.5rem;
   padding-bottom: 0.5vh;
   color: #000;
-  font-family: 'Delius', serif;
-  font-size: 2.5vh;
+  font-family: 'Noto Serif', serif;
+  font-size: 1.2rem;
 }
 
 .faq-answer {
   padding-left: 3vh;
   color: #000;
-  font-family: 'Delius', serif;
-  font-size: 2vh;
-  padding-top: 0.5rem;
+  font-family: 'Noto Serif', serif;
+  font-size: 1.2rem;
+  padding-top: 1.1rem;
 }
 
 .registry-p {
-  font-family: 'Delius', serif;
+  font-family: 'Noto Serif', serif;
   font-size: 1.2rem;
   text-align: center;
   margin: auto;
@@ -355,7 +540,7 @@
   text-align: center;
   padding-bottom: 3rem;
   color: #000;
-  font-family: 'Delius', serif;
+  font-family: 'Noto Serif', serif;
 }
 
 .registry-h {
@@ -378,8 +563,8 @@
 }
 
 .rsvp-p {
-  font-family: 'Delius', serif;
-  font-size: 2vh;
+  font-family: 'Noto Serif', serif;
+  font-size: 1.2rem;
   padding-bottom: 3vh;
 }
 
@@ -424,12 +609,12 @@
 .event-small {
   display: inline-block;
   margin-bottom: 15px;
-  font-family: 'Delius', serif;
+  font-family: 'Noto Serif', serif;
   font-size: 20px;
 }
 
 .event-p {
-  font-family: 'Delius', serif;
+  font-family: 'Noto Serif', serif;
 }
 
 .timeline-textbox {
@@ -527,12 +712,12 @@
   .event-small {
     display: inline-block;
     margin-bottom: 15px;
-    font-family: 'Delius', serif;
+    font-family: 'Noto Serif', serif;
     font-size: 15px;
   }
   
   .event-p {
-    font-family: 'Delius', serif;
+    font-family: 'Noto Serif', serif;
   }
   
   .timeline-textbox {
@@ -643,7 +828,7 @@
     padding-left: 10%;
     padding-right: 10%;
     font-size: 18px;
-    font-family: 'Delius', serif;
+    font-family: 'Noto Serif', serif;
   }
 
   .details-p {
@@ -658,23 +843,6 @@
     border: 3px #d3dde3;
     width: 80%;
     height: 40vh;
-  }
-
-  .wedding-party-list {
-    display: grid;
-    grid-template-columns: repeat(2, 25vh);
-    grid-gap: 1vh;
-    list-style: none;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    padding-top: 3vh;
-    padding-bottom: 2vh;
-    color: #000;
-    font-family: 'Delius', serif;
-    font-size: 3vh;
-    width: 5vh;
-    margin: auto;
   }
 
   .rsvp-embed {
