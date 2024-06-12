@@ -37,7 +37,7 @@ function ContentPage() {
             
             <div className="new-story-event">
                 <h3 className="new-story-date-year">2023</h3>
-                <p className="new-story-date-story">Despite being seven hours apart, we knew it was Mykenzie's final semester. In February, Corbin proposed during Michigan Tech's Winter Carnival. After graduation, Mykenzie moved to Minnesota, and we began building our life together.</p>
+                <p className="new-story-date-story">Despite being seven hours apart, we knew it was Mykenzie&apos;s final semester. In February, Corbin proposed during Michigan Tech&apos;s Winter Carnival. After graduation, Mykenzie moved to Minnesota, and we began building our life together.</p>
             </div>
           </div>
           <div className="divbar-top"><hr className="divline"/></div>
