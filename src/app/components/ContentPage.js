@@ -276,7 +276,7 @@ function ContentPage() {
       <div className='text-item'>
         <div id="registry" className="registry">
           <h1 className="registry-h">Registry</h1>
-          <p className='registry-p'>Gifts are appreciated but never expected. Please do not feel required to give a gift.</p>
+          <p className='registry-p'>Gifts are appreciated but never expected. Your presence at our wedding is the most precious gift we could receive. If you do wish to give a gift, we have created a registry with items that will help us build our life together. However, please do not feel required to give a gift; your love and support mean the world to us. Thank you for being part of our special day.</p>
           <div id="reg-script" className='reg-box'>
             <Script className='myregistry_embeded_iframe' id='script_myregistry_giftlist_iframe' type='text/javascript' src='//www.myregistry.com//Visitors/GiftList/iFrames/EmbedRegistry.ashx?r=tGIzShYCzRjZq_yPBBO8yw2&v=2' ></Script>
           </div>
