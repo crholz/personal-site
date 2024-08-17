@@ -176,9 +176,9 @@ function ContentPage() {
                 <li className="wedding-party-item bridesmaid-side">
                     <p className="member-role">Bridesmaid</p>
                     <div className="wedding-party-img-container">
-                        <img src="/images/katie-square.jpg" alt="Kaitlyn Rymarsuk" className="wedding-party-img" layout="fill" objectFit="cover" />
+                        <img src="/images/katie-square.jpg" alt="Kaitlyn Rymarcsuk" className="wedding-party-img" layout="fill" objectFit="cover" />
                     </div>
-                    <p className="member-name">Kaitlyn Rymarsuk</p>
+                    <p className="member-name">Kaitlyn Rymarcsuk</p>
                     <p className="member-desc">Cousin of the Bride</p>
                 </li>
                 <li className="wedding-party-item groomsman-side">
