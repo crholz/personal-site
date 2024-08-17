@@ -3,6 +3,8 @@
 import React from 'react';
 import "./SubmissionForm.css";
 
+const webhookUrl = process.env.NEXT_PUBLIC_DISCORD_WEBHOOK;
+
 function SubmissionForm() {
   async function handleSubmit(e) {
     e.preventDefault();
@@ -22,7 +24,6 @@ function SubmissionForm() {
       }],
     };
 
-        const webhookUrl = process.env.NEXT_PUBLIC_DISCORD_WEBHOOK;
 
         const response = await fetch(webhookUrl, {
           method: 'POST',
@@ -36,7 +37,6 @@ function SubmissionForm() {
           alert('Ride Request Submitted! Please keep your Ringer on.');
         } else {
           alert('There was an error processing your request.');
-          alert(webhookUrl);
         }
   }
 
