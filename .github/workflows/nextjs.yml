@@ -78,7 +78,8 @@ jobs:
         run: npm run build
         env:
           NEXT_PUBLIC_DISCORD_WEBHOOK: ${{ secrets.NEXT_PUBLIC_DISCORD_WEBHOOK }}
-        
+      - name: Set Secrets
+        run: echo " NEXT_PUBLIC_DISCORD_WEBHOOK=${{secrets.SECRET}}" >> .env
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
