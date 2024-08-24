@@ -78,6 +78,7 @@ jobs:
         run: npm run build
         env:
           NEXT_PUBLIC_DISCORD_WEBHOOK: ${{ secrets.NEXT_PUBLIC_DISCORD_WEBHOOK }}
+          NEXT_PUBLIC_PHOTO_DROPBOX: ${{ secrets.NEXT_PUBLIC_PHOTO_DROPBOX }}
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
