@@ -3,7 +3,7 @@ import './HeaderBox.css'
 
 function HeaderBox() {
 
-  const WEDDING_DATE = new Date("7 july 2024 EST 14:30:00");
+  const WEDDING_DATE = new Date("7 september 2024 EST 14:30:00");
   const NOW_IN_MS = new Date().getTime();
 
   return (
