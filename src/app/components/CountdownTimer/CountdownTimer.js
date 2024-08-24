@@ -6,12 +6,14 @@ import { useCountdown } from './useCountdown';
 import './CountdownTimer.css'
 
 // Source https://blog.greenroots.info/how-to-create-a-countdown-timer-using-react-hooks#heading-the-countdown-app
+const dropboxUrl = process.env.NEXT_PUBLIC_PHOTO_DROPBOX;
 
 const ExpiredNotice = () => {
   return (
     <div className="expired-notice">
-      <span>Married!</span>
-      <p>Thank you all for your love and support.</p>
+      <p className='ty-text'>Married!</p>
+      <p className='photo-link'><u><a href={dropboxUrl}>Upload or View Photos</a></u></p>
+      <p className='photo-link'><u><a href='https://www.corbinandmykenzie.com/riderequest'>Need a Ride Home?</a></u></p>
     </div>
   );
 };

@@ -7,74 +7,94 @@ body {
   background: #1e1e1e;
   min-height: 100vh;
   display: flex;
-  color: rgb(243, 241, 239);
   justify-content: center;
   align-items: center;
+  color: rgb(243, 241, 239);
+  flex-direction: column;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 600;
+  color: #d3dde3;
+  margin-bottom: 20px;
+  font-size: 4.5rem;
+  font-family: 'Mr De Haviland', serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+  box-sizing: border-box;
 }
 
 .block {
   display: flex;
   flex-direction: column;
+  margin-bottom: 15px;
+  width: 100%;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.name {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+.block label {
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: hsl(118, 17%, 60%);
+  font-family: 'Mr De Haviland', serif;
+  font-size: 3rem;
 }
 
-.container {
-  font-size: 1.3rem;
-  border-radius: 10px;
-  width: 85%;
-  padding: 50px;
-  box-shadow: 0 54px 55px rgb(78 78 78 / 25%), 0 -12px 30px rgb(78 78 78 / 25%),
-    0 4px 6px rgb(78 78 78 / 25%), 0 12px 13px rgb(78 78 78 / 25%),
-    0 -3px 5px rgb(78 78 78 / 25%);
+input {
+  font-size: 1rem;
+  padding: 12px;
+  border: 2px solid hsl(118, 17%, 60%);
+  border-radius: 5px;
+  background-color: #3e3e3e;
+  color: #d3dde3;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
 }
 
-.container input {
+input:focus {
+  outline: none;
+  border-color: #d3dde3;
+}
+
+button {
+  padding: 12px;
   font-size: 1.2rem;
-  margin: 10px 0 10px 0px;
-  border-color: rgb(31, 28, 28);
-  padding: 10px;
+  border: 2px solid hsl(118, 17%, 60%);
   border-radius: 5px;
-  background-color: #e8f0fe;
+  background-color: hsl(118, 17%, 60%);
+  color: #1e1e1e;
+  cursor: pointer;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 20px;
 }
 
-.container textarea {
-  margin: 10px 0 10px 0px;
-  padding: 5px;
-  border-color: rgb(31, 28, 28);
-  border-radius: 5px;
-  background-color: #e8f0fe;
-  font-size: 20px;
+button:hover {
+  background-color: #d3dde3;
+  color: #1e1e1e;
 }
 
-.container h1 {
-  text-align: center;
-  font-weight: 600;
-}
+@media (min-width: 768px) {
+  .container {
+    width: 100%;
+  }
+  
+  .block {
+    max-width: 400px; /* Ensures enough space for inputs */
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-.name div {
-  display: flex;
-  flex-direction: column;
+  button {
+    width: 100%;
+  }
 }
-
-.block button {
-  padding: 10px;
-  font-size: 20px;
-  width: 30%;
-  border: 3px solid black;
-  border-radius: 5px;
-}
-
-.button {
-  display: flex;
-  align-items: center;
-}
-
-textarea {
-  resize: none;
-}
-

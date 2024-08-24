@@ -4,8 +4,6 @@ import React, { useState } from "react";
 import Link from "next/link";
 import "./Navbar.css";
 
-import CountdownTimer from "./CountdownTimer/CountdownTimer";
-
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
 config.autoAddCss = false;
@@ -18,9 +16,6 @@ function Navbar() {
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
-
-  const WEDDING_DATE = new Date("7 september 2024");
-  const NOW_IN_MS = new Date().getTime();
 
   return (
     <>

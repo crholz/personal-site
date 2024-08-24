@@ -12,12 +12,14 @@ function SubmissionForm() {
     const senderName = document.getElementById('nameInput').value;
     const senderDest = document.getElementById('destInput').value;
     const senderPhone = document.getElementById('phoneInput').value;
+    const senderSize = document.getElementById('sizeInput').value;
 
     const webhookBody = {
       embeds: [{
         title: 'Ride Requested!',
         fields: [
           { name: 'Name', value: senderName },
+          { name: 'Party Size', value: senderSize },
           { name: 'Destination', value: senderDest},
           { name: 'Phone Number', value: senderPhone }
         ]
@@ -53,6 +55,18 @@ function SubmissionForm() {
           required
         />
       </div>
+      <div className="size block">
+          <label htmlFor="sizeInput">Party Size</label>
+          <input
+            id="sizeInput"
+            type="Number"
+            name="Party Size"
+            autoComplete="none"
+            min="1"
+            max="8"
+            required
+          />
+        </div>
       <div className="dest block">
         <div>
           <label htmlFor="destInput">Destination</label>
